@@ -1,5 +1,10 @@
 <?php 
+require_once 'system.php';
 
 echo 'Hello word';
+
+$instance = new SimpleClass();
+
+echo $instance->name;
 
 ?>
