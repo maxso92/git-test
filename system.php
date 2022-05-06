@@ -2,8 +2,13 @@
 // test
 // lost 
 
+class Test {
 
-class SimpleClass
+    public $simple_const = '123';
+}
+
+
+class SimpleClass extends Test
 {
     // объявление свойства
     public $var = 'значение по умолчанию';
@@ -11,5 +16,6 @@ class SimpleClass
     // объявление метода
     public function displayVar() {
         echo $this->var;
+        echo $this->simple_const;
     }
 }
