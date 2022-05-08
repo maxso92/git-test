@@ -4,7 +4,7 @@ require_once 'system.php';
 // еуые
 require_once 'system.php';
 
-echo 'Hello word';
+echo 'Hello word !!!!';
 
 $instance = new SimpleClass();
 
